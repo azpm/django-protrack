@@ -16,5 +16,9 @@ suffice it to say you will need a Linux host with a user _informix_ (group _info
 and the IBM Informix SDK. The SDK installer uses java and I've had the most success with
 **jdk-6u32-linux-x64-rpm.bin** and not openjdk.
 
+And, you will need:
+
+sql-alchemy: http://www.sqlalchemy.org version 0.7.6 or better
+
 This loader connects to informix using configuration provided by a django application,
 chronologia, and loads information in.
