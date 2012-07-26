@@ -6,7 +6,9 @@ Command Line loader for Protrack (informixDB) into a django managed db
 Usage
 =====
 
-python manage.py load_protrack <channel_keyname>
+python manage.py load_protrack *optional channel-keyname*
+
+If executed without _channel-keyname_ it will load all protrack enabled services
 
 prerequisites
 =============
