@@ -260,6 +260,6 @@ class Command(BaseCommand):
         #end the protrack session                                    
         session.close()
         
-        logge4.info(u"Completed protrack load for: {0:>s}".format(" ".join(t.keyname for t in services)))
+        logger.info(u"Completed protrack load for: {0:>s}".format(" ".join(t.keyname for t in services)))
 
            
